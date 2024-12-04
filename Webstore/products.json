@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1,
+        "name": "Combo Simple Fat Cheddar",
+        "price": 4500,
+        "image": "./public/flyerCOMBO/flyerCOMBO1.jpg",
+        "description": "Hamburguesa en pan de papa con medallón 100% de carne de 110gr., cheddar, cebolla, kétchup, mostaza y papas fritas."
+    },
+    {
+        "id": 2,
+        "name": "Combo Double Fat Cheddar",
+        "price": 6500,
+        "image": "./public/flyerCOMBO/flyerCOMBO2.jpg",
+        "description": "Hamburguesa en pan de papa con dos medallones 100% de carne de 110 gr., cheddar, kétchup, mostaza, cebolla y papas fritas."
+    },
+    
+    {
+        "id": 3,
+        "name": "Combo Triple Fat Cheddar",
+        "price": 8000,
+        "image": "./public/flyerCOMBO/flyerCOMBO3.jpg",
+        "description": "Hamburguesa en pan de papa con dos medallones 100% de carne de 110 gr., cheddar, kétchup, mostaza, cebolla y papas fritas."
+    },
+    
+    {
+        "id": 4,
+        "name": "Combo Fat Bacon Burger",
+        "price": 5000,
+        "image": "./public/flyerCOMBO/flyerCOMBO4.jpg",
+        "description": "Hamburguesa en pan de papa con un medallón 100% de carne de 110 gr., cheddar, panceta ahumada, kétchup, mostaza, cebolla y papas fritas."
+    },
+    
+    {
+        "id": 5,
+        "name": "Combo Double Fat Bacon",
+        "price": 7000,
+        "image": "./public/flyerCOMBO/flyerCOMBO5.jpg",
+        "description": "Hamburguesa en pan de papa con dos medallones 100% de carne de 110 gr., cheddar, panceta ahumada, kétchup, mostaza, cebolla y papas fritas.ingredientes"
+    },
+    
+    {
+        "id": 6,
+        "name": "Combo Mega Fat Cheddar Extreme",
+        "price": 9500,
+        "image": "./public/flyerCOMBO/flyerCOMBO6.jpg",
+        "description": "Hamburguesa en pan de papa con tres medallones 100% de carne de 110 gr., extra cheddar, extra panceta, kétchup, mostaza, cebolla y papas fritas."
+    },
+    
+    {
+        "id": 7,
+        "name": "Combo Fat Onion Cheese",
+        "price": 5000,
+        "image": "./public/flyerCOMBO/flyerCOMBO7.jpg",
+        "description": "Hamburguesa en pan de papa con medallón 100% de carne de 110gr., cheddar, cebolla caramelizada y papas fritas."
+    },
+    
+    {
+        "id": 8,
+        "name": "Combo Double Fat Onion Cheese",
+        "price": 6500,
+        "image": "./public/flyerCOMBO/flyerCOMBO8.jpg",
+        "description": "Hamburguesa en pan de papa con dos medallones 100% de carne de 110gr., cheddar, cebolla caramelizada y papas fritas."
+    },
+    
+    {
+        "id": 9,
+        "name": "Combo Fat Smoke Onion BBQ",
+        "price": 7500,
+        "image": "./public/flyerCOMBO/flyerCOMBO9.png",
+        "description": "Hamburguesa en pan de papa brioche con dos medallones 100% de carne, cheddar, cebolla caramelizada, salsa barbacoa y papas fritas."
+    },
+    
+    {
+        "id": 10,
+        "name": "Combo Fat Classic Burger",
+        "price": 5000,
+        "image": "./public/flyerCOMBO/flyerCOMBO10.jpg",
+        "description": "Hamburguesa en pan de papa brioche con un medallon 100% de carne, cheddar, cebolla, mayonesa, lechuga, tomate y papas fritas."
+    },
+    {
+        "id": 11,
+        "name": "Combo Double Fat Classic ",
+        "price": 7000,
+        "image": "./public/flyerCOMBO/flyerCOMBO11.jpg",
+        "description": "Hamburguesa en pan de papa brioche con dos medallones 100% de carne, cheddar, cebolla, mayonesa, lechuga, tomate y papas fritas."
+    },
+    {
+        "id": 12,
+        "name": "Simple Fat Cheddar",
+        "price": 4000,
+        "image": "./public/burgerDISH/burgerDISH1.jpg",
+        "description": "Hamburguesa en pan de papa con medallón 100% de carne de 110gr., cheddar, cebolla, kétchup, mostaza y papas fritas."
+    },
+    {
+        "id": 13,
+        "name": "Double Fat Cheddar",
+        "price": 6000,
+        "image":  "./public/burgerDISH/burgerDISH2.jpeg",
+        "description": "Hamburguesa en pan de papa con dos medallones 100% de carne de 110 gr., cheddar, kétchup, mostaza, cebolla y papas fritas."
+    },
+    {
+        "id": 14,
+        "name": "Triple Fat Cheddar",
+        "price": 7500,
+        "image": "./public/burgerDISH/burgerDISH3.jpeg",
+        "description": "Hamburguesa en pan de papa con tres medallones 100% de carne de 110 gr., cheddar, kétchup, mostaza, cebolla y papas fritas."
+    },
+    {
+        "id": 15,
+        "name": "Fat Bacon Burger",
+        "price": 4500,
+        "image": "./public/burgerDISH/burgerDISH4.jpg",
+        "description": "Hamburguesa en pan de papa con un medallón 100% de carne de 110 gr., cheddar, panceta ahumada, kétchup, mostaza, cebolla y papas fritas."
+    },
+    {
+        "id": 16,
+        "name": "Double Fat Bacon",
+        "price": 6500,
+        "image": "./public/burgerDISH/burgerDISH5.jpg",
+        "description": "Hamburguesa en pan de papa con dos medallones 100% de carne de 110 gr., cheddar, panceta ahumada, kétchup, mostaza, cebolla y papas fritas."
+    },
+    {
+        "id": 17,
+        "name": "Mega Fat Cheddar Extreme",
+        "price": 9000,
+        "image": "./public/burgerDISH/burgerDISH6.jpg",
+        "description": "Hamburguesa en pan de papa con tres medallones 100% de carne de 110 gr., extra cheddar, extra panceta, kétchup, mostaza, cebolla y papas fritas."
+    },
+    {
+        "id": 18,
+        "name": "Fat Onion Cheese",
+        "price": 4500,
+        "image": "./public/burgerDISH/burgerDISH7.jpeg",
+        "description": "Hamburguesa en pan de papa con medallón 100% de carne de 110gr., cheddar, cebolla caramelizada y papas fritas."
+    },
+    {
+        "id": 19,
+        "name": "Double Fat Onion Cheese ",
+        "price": 6000,
+        "image": "./public/burgerDISH/burgerDISH8.jpg",
+        "description": "Hamburguesa en pan de papa con dos medallones 100% de carne de 110gr., cheddar, cebolla caramelizada y papas fritas."
+    },
+    {
+        "id": 20,
+        "name": "Fat Smoke Onion BBQ",
+        "price": 7000,
+        "image": "./public/burgerDISH/burgerDISH9.jpeg",
+        "description": "Hamburguesa en pan de papa brioche con dos medallones 100% de carne, cheddar, cebolla caramelizada, salsa barbacoa y papas fritas."
+    },
+    {
+        "id": 21,
+        "name": "Fat Classic Burger",
+        "price": 4500,
+        "image": "./public/burgerDISH/burgerDISH10.jpeg",
+        "description": "Hamburguesa en pan de papa brioche con un medallón 100% de carne, cheddar, cebolla, mayonesa, lechuga, tomate y papas fritas."
+    },
+    {
+        "id": 22,
+        "name": "Double Fat Classic ",
+        "price": 6500,
+        "image": "./public/burgerDISH/burgerDISH11.jpeg",
+        "description": "Hamburguesa en pan de papa brioche con dos medallones 100% de carne, cheddar, cebolla, mayonesa, lechuga, tomate y papas fritas."
+    },
+    {
+        "id": 23,
+        "name": "Papas medianas ",
+        "price": 3000,
+        "image": "./public/papas/papasMEDIANAS.jpg",
+        "description": "Papas fritas de tamaño mediano."
+    },
+    {
+        "id":24,
+        "name": "Papas con cheddar",
+        "price": 5000,
+        "image": "./public/papas/papasCHEDDAR.jpg",
+        "description": "Papas fritas de tamaño mdeiano con salsa cheddar."
+    },
+    {
+        "id":25,
+        "name": "Papas volcano",
+        "price": 7000,
+        "image": "./public/papas/papasVOLCANO.png",
+        "description": "Papas fritas con salsa cheddar, cebollita de verdeo y panceta."
+    },
+    {
+        "id": 26,
+        "name": "Manaos cola",
+        "price": 1000,
+        "image": "./public/bebidas/manaos.jpg",
+        "description": "Gaseosa manaos cola 600ml."
+    },
+    {
+        "id": 27,
+        "name": "Manaos lima",
+        "price": 1000,
+        "image": "./public/bebidas/manaos-lima-limon.jpg",
+        "description": "Gaseosa manaos lima 600ml."
+    },
+    {
+        "id": 28,
+        "name": "7up lata",
+        "price": 1500,
+        "image": "./public/bebidas/7up.png",
+        "description": "Gaseosa 7up lata 354ml."
+    },
+    {
+        "id": 29,
+        "name": "Pepsi lata",
+        "price": 1500,
+        "image": "./public/bebidas/pepsi.jpg",
+        "description": "Gaseosa pepsi lata 354ml."
+    }
+]

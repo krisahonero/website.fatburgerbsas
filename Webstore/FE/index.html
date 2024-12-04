@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../FE/style.css">
+    
+    <title>Burgercitos</title>
+    <link rel="icon" href="public/front/Burger-PNG-Image.png">
+</head>
+
+<body>
+    <div class="page-nav">
+        <button class="log"><a href="../FE/registration/login.html">Back</a></button>
+        <h1 class="title">Bienvenidos a Fat Burger</h1>
+        <h2>Las mejores burgers de Zona norte</h2>
+        
+    </div>
+    <div id="page-content" >
+        <div class="page-content ">
+            <h2 class="section-title">Combos</h2>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO1.jpg" class="foto-burger"alt="ComboSimpleFatCheddar">
+                <div class="text">
+                    <h3>Combo Simple Fat Cheddar</h3>
+                    <p class="description"> Hamburguesa en pan de papa con medallón 100% de carne de 110gr., cheddar, cebolla, kétchup, mostaza y papas fritas. </p>
+                    <div class="precio">
+                         <span>$4500 </span>
+                        <button class="shape"onclick="add('Combo Simple Fat Cheddar',4500) addCart('Combo Simple Fat Cheddar',4500)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO2.jpg" class="foto-burger" alt="burger5">
+                <div class="text">
+                    <h3> Combo Double Fat Cheddar</h3>
+                    <p class="description"> Hamburguesa en pan de papa con dos medallones 100% de carne de 110 gr., cheddar, kétchup, mostaza, cebolla y papas fritas. </p>
+                    <div class="precio">
+                        <span>$6500 </span>
+                        <button class="shape" onclick="add('Combo Double Fat Cheddar',6500)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO3.jpg" class="foto-burger" alt="burger5">
+                <div class="text">
+                    <h3> Combo Triple Fat Cheddar</h3>
+                    <p class="description"> Hamburguesa en pan de papa con dos medallones 100% de carne de 110 gr., cheddar, kétchup, mostaza, cebolla y papas fritas. </p>
+                    <div class="precio">
+                         <span>$8000 </span>
+                        <button class="shape"onclick="add('Combo Triple Fat Cheddar',8000)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO4.jpg" class="foto-burger" alt="burger5">
+                <div class="text">
+                    <h3>Combo Fat Bacon Burger</h3>
+                    <p class="description"> Hamburguesa en pan de papa con un medallón 100% de carne de 110 gr., cheddar, panceta ahumada, kétchup, mostaza, cebolla y papas fritas. </p>
+                    <div class="precio">
+                         <span>$5000 </span>
+                        <button class="shape"onclick="add('Combo Fat Bacon Burger',5000)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO5.jpg" class="foto-burger" alt="burger5">
+                <div class="text">
+                    <h3>Combo Double Fat Bacon</h3>
+                    <p class="description"> Hamburguesa en pan de papa con dos medallones 100%de carne de 110 gr., cheddar, panceta ahumada, kétchup, mostaza, cebolla ypapas fritas. </p>
+                    <div class="precio">
+                         <span>$7000 </span>
+                        <button class="shape"onclick="add('Combo Double Fat Bacon',7000)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO6.jpg" class="foto-burger" alt="burger5">
+                <div class="text">
+                    <h3>Combo Mega Fat Cheddar Extreme</h3>
+                    <p class="description"> Hamburguesa en pan de papa con tres medallones 100%de carne de 110 gr., extra cheddar, extra panceta, kétchup, mostaza, cebollay papas fritas. </p>
+                    <div class="precio">
+                         <span>$9500 </span>
+                        <button class="shape"onclick="add('Combo Mega Fat Cheddar Extreme',9500)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO7.jpg" class="foto-burger" alt="burger5">
+                <div class="text">
+                    <h3>Combo Fat Onion Cheese</h3>
+                    <p class="description"> Hamburguesa en pan de papa con medallón 100% de carne de 110gr., cheddar, cebolla caramelizada y papas fritas. </p>
+                    <div class="precio">
+                         <span>$5000 </span>
+                        <button class="shape"onclick="add('Combo Fat Onion Cheese',5000)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO8.jpg" class="foto-burger" alt="burger5">
+                <div class="text">
+                    <h3>Combo Double Fat Onion Cheese</h3>
+                    <p class="description"> Hamburguesa en pan de papa con dos medallones 100% de carne de 110gr., cheddar, cebolla caramelizada y papas fritas. </p>
+                    <div class="precio">
+                         <span>$6500 </span>
+                        <button class="shape"onclick="add('Combo Double Fat Onion Cheese',6500)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO9.png" class="foto-burger" alt="burger9">
+                <div class="text">
+                    <h3>Combo Fat Smoke Onion BBQ</h3>
+                    <p class="description"> Hamburguesa en pan de papa brioche con dos medallones 100% de carne, cheddar, cebolla caramelizada, salsa barbacoa y papas fritas. </p>
+                    <div class="precio">
+                         <span>$7500 </span>
+                        <button class="shape"onclick="add('Combo Fat Smoke Onion BBQ',7500)">
+                            +
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO10.jpg" class="foto-burger" alt="burger5">
+                <div class="text">
+                    <h3>Combo Fat Classic Burger</h3>
+                    <p class="description"> Hamburguesa en pan de papa brioche con dos medallones 100% de carne, cheddar, cebolla crispy, salsa barbacoa y papas fritas. </p>
+                    <div class="precio">
+                         <span>$5000 </span>
+                        <button class="shape"onclick="add('Combo Fat Classic Burger',5000)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="productContainer">
+                <img src="public/flyerCOMBO/flyerCOMBO11.jpg" class="foto-burger" alt="burger5">
+                <div class="text">
+                    <h3>Combo Double Fat Classic</h3>
+                    <p class="description"> Hamburguesa en pan de papa brioche con dos medallones 100% de carne, cheddar, cebolla crispy, salsa barbacoa y papas fritas. </p>
+                    <div class="precio">
+                         <span>$7000 </span>
+                        <button class="shape"onclick="add('Combo Double Fat Classic',7000)">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="page-content">
+            <h2 class="section-title">Burgers</h2>
+                <div class="productContainer">
+                    <img src="./public/burgerDISH/burgerDISH1.jpg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Simple Fat Cheddar</h3>
+                        <p class="description"> Hamburguesa en pan de papa con medallón 100% de carne de 110gr., cheddar, cebolla, kétchup, mostaza y papas fritas. </p>
+                        <div class="precio">
+                             <span>$4000 </span>
+                            <button class="shape"onclick="add('Simple Fat Cheddar',4000)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="public/burgerDISH/burgerDISH2.jpeg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Double Fat Cheddar</h3>
+                        <p class="description"> Hamburguesa en pan de papa con dos medallones100% de carne de 110 gr., cheddar, kétchup, mostaza, cebolla y papasfritas. </p>
+                        <div class="precio">
+                            <span>$6000 </span>
+                            <button class="shape" onclick="add('Double Fat Cheddar',6000)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="./public/burgerDISH/burgerDISH3.jpeg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Triple Fat Cheddar</h3>
+                        <p class="description"> Hamburguesa en pan de papa con dos medallones100% de carne de 110 gr., cheddar, kétchup, mostaza, cebolla y papasfritas. </p>
+                        <div class="precio">
+                             <span>$7500 </span>
+                            <button class="shape"onclick="add('Triple Fat Cheddar',7500)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="./public/burgerDISH/burgerDISH4.jpg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Fat Bacon Burger</h3>
+                        <p class="description"> Hamburguesa en pan de papa con un medallón 100%de carne de 110 gr., cheddar, panceta ahumada, kétchup, mostaza, cebollay papas fritas. </p>
+                        <div class="precio">
+                             <span>$4500 </span>
+                            <button class="shape"onclick="add('Fat Bacon Burger',4500)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="./public/burgerDISH/burgerDISH5.jpg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Double Fat Bacon</h3>
+                        <p class="description"> Hamburguesa en pan de papa con dos medallones100% de carne de 110 gr., cheddar, panceta ahumada, kétchup, mostaza,cebolla y papas fritas. </p>
+                        <div class="precio">
+                             <span>$6500 </span>
+                            <button class="shape"onclick="add('Double Fat Bacon',6500)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                        <img src="./public/burgerDISH/burgerDISH6.jpg" class="foto-burger" alt="burger5">
+                        <div class="text">
+                            <h3>Mega Fat Cheddar Extreme</h3>
+                            <p class="description"> Hamburguesa en pan de papa con tres medallones 100% de carne de 110 gr., extra cheddar, extra panceta, kétchup, mostaza, cebolla y papas fritas. </p>
+                            <div class="precio">
+                                 <span>$9000 </span>
+                                <button class="shape"onclick="add('Mega Fat Cheddar Extreme',9000)">
+                                    +
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                <div class="productContainer">
+                    <img src="./public/burgerDISH/burgerDISH7.jpeg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Fat Onion Cheese</h3>
+                        <p class="description"> Hamburguesa en pan de papa con medallón 100% decarne de 110gr., cheddar, cebolla caramelizada y papas fritas. </p>
+                        <div class="precio">
+                             <span>$4500 </span>
+                            <button class="shape"onclick="add('Fat Onion Cheese',4500)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="./public/burgerDISH/burgerDISH8.jpg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Double Fat Onion Cheese</h3>
+                        <p class="description"> Hamburguesa en pan de papa con dos medallones100% de carne de 110gr., cheddar, cebolla caramelizada y papas fritas. <p>
+                        <div class="precio">
+                             <span>$6000 </span>
+                            <button class="shape"onclick="add('Double Fat Onion Cheese',6000)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="./public/burgerDISH/burgerDISH9.jpeg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Fat Smoke Onion BBQ</h3>
+                        <p class="description"> Hamburguesa en pan de papa brioche con dosmedallones 100% de carne, cheddar, cebolla caramelizada, salsa barbacoay papas fritas. </p>
+                        <div class="precio">
+                             <span>$7000 </span>
+                            <button class="shape"onclick="add('Fat Smoke Onion BBQ',7000)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="./public/burgerDISH/burgerDISH10.jpeg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Fat Classic Burger</h3>
+                        <p class="description"> Hamburguesa en pan de papa brioche con dosmedallones 100% de carne, cheddar, cebolla crispy, salsa barbacoa ypapas fritas. </p>
+                        <div class="precio">
+                             <span>$4500 </span>
+                            <button class="shape"onclick="add('Fat Classic Burger',4500)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="./public/burgerDISH/burgerDISH11.jpeg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Double Fat Classic</h3>
+                        <p class="description"> Hamburguesa en pan de papa brioche con dosmedallones 100% de carne, cheddar, cebolla crispy, salsa barbacoa ypapas fritas. </p>
+                        <div class="precio">
+                             <span>$6500 </span>
+                            <button class="shape"onclick="add('Double Fat Classic',6500)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="page-content ">
+            <h2 class="section-title">Papas fritas</h2>
+                <div class="productContainer">
+                    <img src="public/papas/papasMEDIANAS.jpg" class="foto-burger" alt="burger5">
+                    <div class="text">
+                        <h3>Papas medianas</h3>
+                        <p class="description "> Porción de papas fritas de tamaño mediano. </p>
+                        <div class="precio">
+                             <span>$3000 </span>
+                            <button class="shape"onclick="add('Papas medianas',3000)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="public/papas/papasCHEDDAR.jpg" class="foto-burger" alt="burger5">
+                    <div class="text">
+                        <h3>Papas con cheddar</h3>
+                        <p class="description"> Papas fritas de tamaño mediano con salsa cheddar. </p>
+                        <div class="precio">
+                             <span>$5000 </span>
+                            <button class="shape"onclick="add('Papas con cheddar',5000)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="public/papas/papasVOLCANO.png" class="foto-burger" alt="burger5">
+                    <div class="text">
+                        <h3>Papas volcano</h3>
+                        <p class="description"> Papas fritas con salsa cheddar, cebollita deverdeo y panceta. </p>
+                        <div class="precio">
+                             <span>$7000 </span>
+                            <button class="shape"onclick="add('Papas volcano',7000)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="page-content ">
+            <h2 class="section-title">Bebidas</h2>
+                <div class="productContainer">
+                    <img src="public/bebidas/manaos.jpg" class="foto-burger" alt="burgr5">
+                    <div class="text">
+                        <h3>Manaos Cola</h3>
+                        <p class="description"> Gaseosa manaos cola 600ml.</p>
+                        <div class="precio">
+                             <span>$1000 </span>
+                            <button class="shape"onclick="add('Manaos cola',1000)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="public/bebidas/manaos-lima-limon.jpg" class="foto-burger"alt="burger5">
+                    <div class="text">
+                        <h3>Manaos lima</h3>
+                        <p class="description"> Gaseosa manaos lima 600ml. </p>
+                        <div class="precio">
+                             <span>$1000 </span>
+                            <button class="shape"onclick="add('Manaos lima',1000)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                
+                     <img src="public/bebidas/7up.png" class="foto-burger" alt="burger5">
+                     <div class="text">
+                         <h3>7up lata</h3>
+                         <p class="description"> Gaseosa 7up lata 354ml.</p>
+                         <div class="precio">
+                              <span>$1500 </span>
+                             <button class="shape"onclick="add('7up lata',1500)">
+                                 +
+                             </button>
+                         </div>
+                    </div>
+                </div>
+                <div class="productContainer">
+                    <img src="public/bebidas/pepsi.jpg" class="foto-burger" alt="burger5">
+                    <div class="text">
+                        <h3>Pepsi lata</h3>
+                        <p class="description"> Gaseosa pepsi lata 354ml.</p>
+                        <div class="precio">
+                             <span>$1500 </span>
+                            <button class="shape" onclick="add('Pepsi lata',1500)">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="listProduct">
+
+                </div>
+        </div>
+        
+        
+        <button id="counter" class="up"> <a href="" target="_top" class="icon-carrito">↑</a></button>
+    </div>
+    <button id="btn-abrir-modal" class="carrito">
+        <img src="public/front/icon-carrito.png" alt="">
+        <span>
+            0
+        </span>
+    </button>
+    <dialog id="modal">
+        <button id="btn-cerrar-modal">X</button>
+        <p> Tu Carrito</p>
+        <div id="list-cart">
+            <div class="item">
+                <div class="image">
+                    imagen
+                </div>
+                <div class="name">
+                    NAME
+                </div>
+                <div class="totalPrice">
+                    $200
+                </div>
+                <div class="quantity">
+                    <span class="minus">-</span>
+                    <span>1</span>
+                    <span class="plus">+</span>
+                </div>
+            </div> 
+        </div>
+        <p class="white-space">
+        Subtotal:
+        Envío:
+        </p>
+        <button id="checkout" class="button-checkout"> Realizar pedido</button>
+    </dialog>
+    <script src="../js/app.js"></script>
+</body>
+</html>

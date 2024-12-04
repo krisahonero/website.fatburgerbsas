@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="../../Proyecto-Fat-Burger/images/fa.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../Proyecto-Fat-Burger/css/style.css" />
+
+    <title>Fat Burger</title>
+</head>
+<body>
+
+  <!------------------------------------------------------
+                            Top Bar
+    ------------------------------------------------------>
+
+  <div class="top-bar" id="top-bar">
+    <div class="top-bar-left">
+        <span><i class='bx bx-map'></i> TAKE AWAY: Blas Parera 4556 (José C. Paz)</span>
+        <span><i class='bx bx-time'></i> Horarios: 19:00 a 23:00</span>
+    </div>
+    <div class="top-bar-right">
+        <span><i class='bx bxl-instagram'></i>Fat.burguer.bsas</span>
+        <span><i class='bx bx-mobile'></i>(+54) 9 11 6678-3269</span>
+    </div>
+</div>
+
+
+  <!------------------------------------------------------
+                            NavBar
+    ------------------------------------------------------>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <img src="../../Proyecto-Fat-Burger/images/Logo.png" alt="Logo" />
+        </div>
+        <nav class="nav-links">
+                <ul>
+                    <li><a href="../../Proyecto-Fat-Burger/index.html">Inicio</a></li>
+                    <li><a href="registration/login.html">Menu</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+        </nav>
+        <div class="right-icons">
+            <a href="../Webstore/FE/registration/registration.html"><i class='bx bx-user'></i></a>
+            <a href="../Webstore/FE/registration/login.html"><i class='bx bx-cart'></i></a>
+        </div>
+        <div class="menu-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </div>
+</header>
+
+<div class="mobile-menu">
+    <nav>
+        <ul>
+            <li><a href="../../Proyecto-Fat-Burger/index.html">Inicio</a></li>
+            <li><a href="registration/login.html">Menu</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#footer">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    // Función para mostrar/ocultar el menú
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+    });
+
+    // Función para cerrar el menú al hacer clic fuera de él
+    document.addEventListener('click', (event) => {
+        const isClickInside = mobileMenu.contains(event.target) || menuToggle.contains(event.target);
+        if (!isClickInside) {
+            mobileMenu.classList.remove('active');
+        }
+    });
+
+    // Función para cerrar el menú al desplazarse
+    window.addEventListener('scroll', () => {
+        if (mobileMenu.classList.contains('active')) {
+            mobileMenu.classList.remove('active');
+        }
+    });
+</script>
+
+  <!------------------------------------------------------
+                            Inicio
+    ------------------------------------------------------>
+
+    <div class="about-us">
+        <h1>Sobre nosotros</h1>
+        <img src="./public/front/us.jpg" alt="team">
+        <p class="text-nosotros"> Hola a todos! Nosotros somos Fat Burger. Nos conocen como Eli y Cris, comenzamos trabajando en Mayo del 2024. Todo surgió cuando volvimos de trabajar unos meses largos en Budapest, Hungría. Siempre quisimos emprender juntos y entonces fue ahí donde decidimos crear nuestro propio emprendimiento! Realmente somos amantes de la comida y fue dificil elegir cuál comenzar a vender. Como cualquier persona sabe, es dificil comenzar, pero una vez que comenzas es solo continuar y todo va a dar sus frutos. En un futuro quisiéramos abrir un local donde podamos recibir gente y que coman ahí mismo. Algo que nos motiva mucho pensar es que "Soñar no cuesta nada y creemos que ese futuro no está muy lejos"</p>
+    </div>
+
+ 
+
+
+
+
+   <!-----------------------------------------------------
+                            FOOTER
+    ------------------------------------------------------>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <img src="../../Proyecto-Fat-Burger/images/Logo.png" alt="Logo Fat Burguer" class="logo">
+                <br>Fat Burger es más que hamburguesas.<br> Es una experiencia para los amantes del buen sabor.</br></p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explorar</h3>
+                <ul>
+                    <li><a href="index.html">Menú</a></li>
+                    <li><a href="../Webstore/FE/Nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div id="footer" class="footer-column">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/fat.burger.bsas/" target="_blank" rel="noopener noreferrer">Fat.burguer.bsas</a></li>
+                    <li><a href="https://wa.me/5491166783269" target="_blank" rel="noopener noreferrer">(+54) 9 11 6678-3269</a></li>
+                    <li><a href="mailto:fatburger.bsas@gmail.com">fatburger.bsas@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="#top" class="back-to-top">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+
+        <div class="footer-bottom">
+            <p>© 2024 Fat Burguer. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.back-to-top').addEventListener('click', function(event) {
+            event.preventDefault();
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        });
+    </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script> <!-- Enlace al archivo JavaScript -->
+
+</body>
+</html>

@@ -1,0 +1,384 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="./images/fa.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Fat Burger</title>
+</head>
+<body>
+
+  <!------------------------------------------------------
+                            Top Bar
+    ------------------------------------------------------>
+
+  <div class="top-bar" id="top-bar">
+    <div class="top-bar-left">
+        <span><i class='bx bx-map'></i> TAKE AWAY: Blas Parera 4556 (José C. Paz)</span>
+        <span><i class='bx bx-time'></i> Horarios: 19:00 a 23:00</span>
+    </div>
+    <div class="top-bar-right">
+        <span><i class='bx bxl-instagram'></i>Fat.burguer.bsas</span>
+        <span><i class='bx bx-mobile'></i>(+54) 9 11 6678-3269</span>
+    </div>
+</div>
+
+
+  <!------------------------------------------------------
+                            NavBar
+    ------------------------------------------------------>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./images/Logo.png" alt="Logo" />
+        </div>
+        <nav class="nav-links">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="../Webstore/FE/index.html">Menu</a></li>
+                    <li><a href="../Webstore/FE/Nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+        </nav>
+        <div class="right-icons">
+            <a href="../Webstore/FE/registration/registration.html"><i class='bx bx-user'></i></a>
+            <a href="../Webstore/FE/registration/login.html"><i class='bx bx-cart'></i></a>
+        </div>
+        <div class="menu-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </div>
+</header>
+
+<div class="mobile-menu">
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="../Webstore/FE/index.html">Menu</a></li>
+            <li><a href="../Webstore/FE/Nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="#footer">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    // Función para mostrar/ocultar el menú
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+    });
+
+    // Función para cerrar el menú al hacer clic fuera de él
+    document.addEventListener('click', (event) => {
+        const isClickInside = mobileMenu.contains(event.target) || menuToggle.contains(event.target);
+        if (!isClickInside) {
+            mobileMenu.classList.remove('active');
+        }
+    });
+
+    // Función para cerrar el menú al desplazarse
+    window.addEventListener('scroll', () => {
+        if (mobileMenu.classList.contains('active')) {
+            mobileMenu.classList.remove('active');
+        }
+    });
+</script>
+
+  <!------------------------------------------------------
+                            Inicio
+    ------------------------------------------------------>
+
+    <section class="home-section">
+        <!-- Contenedor para el texto centrado -->
+        <div class="text-container">
+            <h1>La <span>felicidad</span> se encuentra entre dos <span>PANES.</span></h1>
+            <p><span>★</span> Fat burger, sabores que llenan<span> ★</span></p>
+            <!-- <button id="menuButton"><a href="../Webstore/FE/registration/login.html">Ver menú </a>></button> -->
+        </div>
+    </section>
+
+  <!------------------------------------------------------
+                        Información
+    ------------------------------------------------------>
+
+    <section class="info-section">
+        <div class="container">
+            <div class="box">
+                <i class='bx bxs-map'></i>
+                <h3>Blas Parera 4556 (José C. Paz)</h3>
+                <p>Take Away</p>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-truck'></i>
+                <br>José C. Paz - San Miguel -<br>Polvorines - Grand Bourg</br></h3>
+                <p>Delivery</p>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-time-five'></i>
+                <h3>19:00 a 23:00</h3>
+                <p>Horarios</p>
+            </div>
+        </div>
+    </section>
+
+  <!------------------------------------------------------
+                            Promos
+    ------------------------------------------------------>
+
+    <section class="carrusel-imagenes" id="carrusel-desktop">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/PROMO2.png" alt="Imagen 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/PROMO3.png" alt="Imagen 3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/PROMO1.png" alt="Imagen 1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrusel-imagenes" id="carrusel-mobile">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/promo1 -mobile.png" alt="Imagen 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/promo2 -mobile.png" alt="Imagen 3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/promo3 -mobile.png" alt="Imagen 1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiperDesktop = new Swiper('#carrusel-desktop .swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 2,
+                    slideShadows: true,
+                },
+                loop: true,
+                initialSlide: 2,
+            });
+    
+            var swiperMobile = new Swiper('#carrusel-mobile .swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 2,
+                    slideShadows: true,
+                },
+                loop: true,
+                initialSlide: 2,
+            });
+        });
+    </script>
+
+    <!-----------------------------------------------------
+                            Menú
+    ------------------------------------------------------>
+
+    <section class="menu">
+        <div class="titulo-menu">
+            <h1>Grandeza en cada bocado</h1>
+        </div>
+        <div class="dishes-container">
+            <div class="dish">
+                <img src="./images/Fat Smoke Onion BBQ.jpg" alt="Imagen del Plato" />
+                <div class="dish-info">
+                    <h3>Fat Smoke Onion BBQ</h3>
+                    <p>Burger en pan de papa brioche, medallón 100% carne, cheddar, cebolla caramelizada, panceta y salsa barbacoa.</p>
+                    <div class="dish-footer">
+                        <span class="price">$7000</span>
+                        <!-- <button class="add-to-cart"><i class='bx bx-cart-add'></i></button> -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dish">
+                <img src="./images/Mega Fat Cheddar Extreme.jpg" alt="Imagen del Plato" />
+                <div class="dish-info">
+                    <h3>Mega Fat Cheddar Extreme</h3>
+                    <p>Burger en pan de papa con queso gratinado, tres medallones 100% carne, extra cheddar, extra panceta, ketchup, mostaza y cebolla.</p>
+                    <div class="dish-footer">
+                        <span class="price">$9000</span>
+                        <!-- <button class="add-to-cart"><i class='bx bx-cart-add'></i></i></button> -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dish">
+                <img src="./images/Triple Fat Cheddar.jpeg" alt="Imagen del Plato" />
+                <div class="dish-info">
+                    <h3>Triple Fat Cheddar</h3>
+                    <p>Burger en pan de papa con queso gratinado, tres medallones 100% carne, cheddar, kétchup, mostaza y cebolla.</p>
+                    <div class="dish-footer">
+                        <span class="price">$8000</span>
+                        <!-- <button class="add-to-cart"><i class='bx bx-cart-add'></i></button> -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dish">
+                <img src="./images/Simple Fat Onion Cheese.jpeg" alt="Imagen del Plato" />
+                <div class="dish-info">
+                    <h3>Simple Fat Onion Cheese</h3>
+                    <p>Burger con pan de papa suave, con queso gratinado, medallón 100% carne jugosa, con cheddar fundido y cebolla caramelizada.</p>
+                    <div class="dish-footer">
+                        <span class="price">$4500</span>
+                        <!-- <button class="add-to-cart"><i class='bx bx-cart-add'></i></button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="menuButton2"><a href="../Webstore/FE/index.html">Ver menú ></a></button>
+    </section>
+
+
+
+
+
+  <!------------------------------------------------------
+                        Testimonios
+    ------------------------------------------------------>
+
+<section class="testimonials">
+    <div class="testimonials-container">
+        <div class="title">
+            <h1>Lo que dicen los que saben</h1>
+        </div>
+        <div class="slider">
+            <div class="slide active">
+                <p>¡No puedo creer lo buena que está esta hamburguesa! Pedí para llevar y llegó calentita. La cebolla caramelizada le da un toque de locura. ¡Me encanto! </p>
+                <div class="client-info">
+                    <h3>Maria Eugenia</h3>
+                    <span>Usuario de instagram</span>
+                </div>
+            </div>
+            <div class="slide">
+                <p>La verdad, estaba con hambre y pedí una burger para llevar. ¡Qué Loco! Grande, jugosa y bien cargada. Ideal para un día de laburo.</p>
+                <div class="client-info">
+                    <h3>Emiliano Ledesma</h3>
+                    <span>Usuario de insagram</span>
+                </div>
+            </div>
+            <div class="slide">
+                <p>Soy clienta fija y no hay semana que no pida una burger de acá. Siempre frescas, siempre ricas. Ya me siento como en casa. ¡Recomendadísimo! </p>
+                <div class="client-info">
+                    <h3>Tiago Barrios</h3>
+                    <span>Cliente habitual</span>
+                </div>
+            </div>
+        </div>
+        <div class="slider-indicator">
+            <img src="./images/testimonio3.png" class="active" alt="img" data-id="0"/>
+            <img src="./images/testimonio2.png" alt="img" data-id="1"/>
+            <img src="./images/testimonio1.png" alt="img" data-id="2"/>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const slides = document.querySelectorAll(".slider .slide");
+        const indicatorImages = document.querySelectorAll(".slider-indicator img");
+
+        // Agregar evento a cada imagen del indicador
+        indicatorImages.forEach((image, index) => {
+            image.addEventListener("click", function() {
+                console.log("Imagen clickeada: ", index); // Verifica si el clic se detecta
+
+                // Cambiar la clase activa en los indicadores
+                indicatorImages.forEach(indicator => indicator.classList.remove("active"));
+                this.classList.add("active");
+
+                // Cambiar la diapositiva activa
+                slides.forEach(slide => slide.classList.remove("active"));
+                slides[index].classList.add("active");
+            });
+        });
+    });
+</script>
+
+
+   <!-----------------------------------------------------
+                            FOOTER
+    ------------------------------------------------------>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <img src="./images/Logo.png" alt="Logo Fat Burguer" class="logo">
+                <br>Fat Burger es más que hamburguesas.<br> Es una experiencia para los amantes del buen sabor.</br></p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explorar</h3>
+                <ul>
+                    <li><a href="../Webstore/FE/index.html">Menú</a></li>
+                    <li><a href="../Webstore/FE/Nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div id="footer" class="footer-column">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/fat.burger.bsas/" target="_blank" rel="noopener noreferrer">Fat.burguer.bsas</a></li>
+                    <li><a href="https://wa.me/5491166783269" target="_blank" rel="noopener noreferrer">(+54) 9 11 6678-3269</a></li>
+                    <li><a href="mailto:fatburger.bsas@gmail.com">fatburger.bsas@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="#top" class="back-to-top">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+
+        <div class="footer-bottom">
+            <p>© 2024 Fat Burger. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.back-to-top').addEventListener('click', function(event) {
+            event.preventDefault();
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        });
+    </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script> <!-- Enlace al archivo JavaScript -->
+
+</body>
+</html>
