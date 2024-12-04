@@ -124,7 +124,7 @@ function redirectToWhatsApp() {
     message += `*Total: $${subtotal.toFixed(2)}*\n`;
 
     // Número de WhatsApp (reemplázalo con el tuyo)
-    const phoneNumber = "5491127716150";
+    const phoneNumber = "5491166783269";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.location.href = whatsappURL;
 }
